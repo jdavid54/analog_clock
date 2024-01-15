@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock-container {
+    position: relative;
+}
+
+#clock-canvas {
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+#toggleButton {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,+220%);
+    padding: 0px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#time-label {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+}
