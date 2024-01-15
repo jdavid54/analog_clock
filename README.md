@@ -1,3 +1,6 @@
 ## Analog clock
 
-### Change theme to Black or white by click
+### Click label to change theme (Black or White)
+
+- Python
+- HTML
